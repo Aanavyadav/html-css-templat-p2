@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html css project</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+
+        }
+        .nevi{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            color: white;
+            height: 10vh;
+            gap: 20px;
+            background-color: black;
+            margin: 0px;
+        }
+        .logo img{
+            height: 5vh;
+            margin-left: 50px;
+            margin-top: 18px;
+        }
+        nav
+        {display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 30px;
+        margin-left:50px; 
+        font-weight: 800;
+        /* margin-top: 20px; */
+        margin-top: 18px;
+        margin-bottom: 0px;
+        cursor: pointer;
+
+        }
+        li{
+            list-style: none;
+        }
+        #buybtn{
+            position: relative;
+            left: 40vw;
+            height:5vh;
+            width: 8vw;
+            border-radius: 10px;
+            background-color: darkorchid;
+        /* margin-top: 20px;
+         */
+         margin-top: 18px;
+
+
+        }
+        .center{
+            margin: 0px;
+            padding: 0px;
+            /* margin-top: 0px; */
+            object-fit: cover;
+            height: 100vh;
+           position: relative;
+           /* left: 50vw; */
+        }
+        h1{
+            position: relative;
+            left: 45vw;
+            top: 20vh;
+            font-size: 40px;
+        }
+        p{
+            position: relative;
+            top: 18vh;
+            left: 45vw;
+        }
+        #req{
+            position: relative;
+            top: 20vh;
+            left:48vw;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            /* background-color: rgb(62, 227, 227); */
+            background-color: darkorchid;
+        }
+        #req:active{
+            transform: scale(0.9,0.9);
+            transition: 0.6s ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nevi">
+            <div class="logo">
+                <img src="white-logo.png" alt="">
+            </div>
+            <nav>
+                <li>App</li>
+                <li>DAO</li>
+                <li>Technology</li>
+                <li>Token</li>
+                <li>Contributors</li>
+            </nav>
+            <button id="buybtn">Buy 1 Token</button>
+        </div>
+        <div class="center">
+            <h1>
+                Lets build a better <br> tomorrow, together. <br>
+            </h1>
+            <p>Buy 1 Token.Join the DAO. Change the world</p>
+            <button id="req">Request Early Access</button>
+        </div>
+
+      
+       
+    </div>
+
+    
+</body>
+</html>
